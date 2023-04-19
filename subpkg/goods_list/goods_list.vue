@@ -1,6 +1,7 @@
 <template>
 	<view>
 		{{query}}
+		{{cid?'传过来的参数为：'+cid:''}}
 	</view>
 </template>
 
@@ -8,12 +9,14 @@
 	export default {
 		data() {
 			return {
-				query:''
+				query:'',
+				cid:''
 			};
 		},
 		onLoad(e){
 			console.log(e)
-			this.query=e.query
+			this.query=e.query,
+			this.cid=e.cid
 		}
 	}
 </script>
