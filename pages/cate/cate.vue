@@ -81,7 +81,7 @@
 			},
 			gotoSearch() {
 				uni.navigateTo({
-					url:'/subpkg/search/search'
+					url: '/subpkg/search/search'
 				})
 			}
 		}
@@ -92,8 +92,6 @@
 	.scroll-view-container {
 		display: flex;
 
-<<<<<<< HEAD
-=======
 		.left-scroll-view {
 			width: 120px;
 
@@ -157,5 +155,4 @@
 			}
 		}
 	}
->>>>>>> search
 </style>
