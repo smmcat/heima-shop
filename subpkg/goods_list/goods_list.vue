@@ -79,7 +79,7 @@
 			this.isloading = false;
 			this.total = 0;
 			this.queryObj.pagenum = 1;
-
+            // 执行请求 并在响应完成后关闭下拉提示
 			this.getGoodsList(() => uni.stopPullDownRefresh());
 		}
 	}
